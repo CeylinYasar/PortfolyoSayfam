@@ -224,15 +224,12 @@ export const SCL2 = styled.a`
 `;
 export const SCImg1 = styled.div`
   width: 100%;
-  height: 170px;
   @media only screen and (max-width: 768px) {
     width: 90%;
-    height: 120px;
     margin: 0 auto;
   }
   @media only screen and (max-width: 480px) {
     width: 80%;
-    height: 120px;
     margin: 0 auto;
   }
 `;
