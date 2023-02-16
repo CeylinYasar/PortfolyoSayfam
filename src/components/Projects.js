@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Pizza from "../img/pizza.png";
-import Todo from "../img/todoresim.png";
+import Minnet from "../img/minnet.png";
 import {
   SCProjects,
   SCTitle5,
@@ -57,25 +57,31 @@ function Projects() {
             </SCImg1>
           </SCPizza>
           <SCTodo>
-            <SCTitletodo>ToDo List</SCTitletodo>
+            <SCTitletodo>Gratitude Journal</SCTitletodo>
             <SCContentTodo>
-              It's time to plan to get your life in order. Let's go to do list.
+              Shall we write a gratitude journal?. Let's go to the gratitude
+              diary page!
             </SCContentTodo>
             <SCPo>
               <SCT>react</SCT>
               <SCT>vercel</SCT>
               <SCT>redux</SCT>
+              <SCT>axios</SCT>
+              <SCT>router</SCT>
             </SCPo>
             <SCYon2>
-              <SCL2 href="https://github.com/CeylinYasar/todo" target="_blank">
+              <SCL2
+                href="https://github.com/CeylinYasar/MinnetGunlugu"
+                target="_blank"
+              >
                 View on Github
               </SCL2>
-              <SCL2 href="https://todo-ceylin.vercel.app" target="_blank">
+              <SCL2 href="https://minnet-gunlugu.vercel.app" target="_blank">
                 Go to app →
               </SCL2>
             </SCYon2>
             <SCImg1>
-              <img src={Todo} style={{ width: "100%", height: "100%" }} />
+              <img src={Minnet} style={{ width: "100%", height: "100%" }} />
             </SCImg1>
           </SCTodo>
         </SCSection>
