@@ -51,9 +51,7 @@ function Hero() {
           </SCLinkedin>
         </SCLink>
       </SCLeft>
-      <SCRight>
-        <SCResim src={Resim} />
-      </SCRight>
+      <SCRight>{/* <SCResim src={Resim} /> */}</SCRight>
     </SCHero>
   );
 }

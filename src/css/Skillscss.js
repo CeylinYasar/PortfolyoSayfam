@@ -15,6 +15,7 @@ export const SCTitle = styled.div`
   margin-bottom: 3.5rem;
   text-align: center;
   background-color: #ffffff;
+  font-weight: 500;
   @media only screen and (max-width: 768px) {
     line-height: 2rem;
     margin-top: 3rem;
@@ -31,7 +32,7 @@ export const SCTitle = styled.div`
 export const SCProgram = styled.div`
   display: flex;
   background-color: #ffffff;
-  margin-bottom: 4.5rem;
+  margin-bottom: 8.25rem;
   font-size: 1rem;
   text-align: center;
   gap: 35px;
@@ -53,6 +54,9 @@ export const SCCerceve = styled.div`
 `;
 export const SCP = styled.div`
   background: #ffffff;
+  font-weight: 500;
+  color: #777777;
+  margin-top: 10px;
 `;
 export const SCImages = styled.img`
   @media only screen and (max-width: 768px) {

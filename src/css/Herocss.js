@@ -1,5 +1,6 @@
 import styled from "styled-components";
-
+import Resim from "../img/resim.jpg";
+import Resim1 from "../img/resim1.jpeg";
 export const SCHero = styled.div`
   display: flex;
   gap: 5%;
@@ -13,11 +14,17 @@ export const SCHero = styled.div`
   }
 `;
 export const SCLeft = styled.div`
-  width: 65%;
+  width: 60%;
 `;
 export const SCRight = styled.div`
-  width: 30%;
+  width: 45%;
   margin: 1.25rem 0rem;
+  background: url(${Resim1});
+  box-shadow: 0px 8px 28px -6px rgba(24, 39, 75, 0.12),
+    0px 18px 88px -4px rgba(24, 39, 75, 0.14);
+  border-radius: 18px;
+  background-size: cover;
+  background-position: center center;
 `;
 export const SCName = styled.div`
   font-size: 1.25rem;
@@ -53,8 +60,8 @@ export const SCLine = styled.div`
 export const SCBaslik = styled.div`
   font-size: 4.5rem;
   font-family: "Inter", sans-serif;
-  margin-top: 1.15rem;
-  margin-bottom: 1.15rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
   color: #1f2937;
   font-weight: 700;
   @media only screen and (max-width: 768px) {
@@ -78,16 +85,9 @@ export const SCContent = styled.div`
     line-height: 1rem;
   }
 `;
-export const SCResim = styled.img`
-  width: 100%;
-  height: 100%;
-  box-shadow: 0px 8px 28px -6px rgba(24, 39, 75, 0.12),
-    0px 18px 88px -4px rgba(24, 39, 75, 0.14);
-  border-radius: 18px;
-`;
 export const SCLink = styled.div`
-  margin-top: 1.15rem;
-  margin-bottom: 1.15rem;
+  margin-top: 2.5rem;
+  margin-bottom: 3.25rem;
   font-family: "Inter", sans-serif;
   font-size: 1.15rem;
   display: flex;

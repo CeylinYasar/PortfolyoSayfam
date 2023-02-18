@@ -10,6 +10,7 @@ export const SCTitle2 = styled.div`
   font-size: 2.25rem;
   text-align: center;
   line-height: 2.75rem;
+  font-weight: 500;
   color: #000000;
   @media only screen and (max-width: 768px) {
     line-height: 2rem;
@@ -53,6 +54,8 @@ export const SCTitle3 = styled.div`
   color: #ea2678;
   margin-bottom: 1.75rem;
   background: #ffffff;
+  font-weight: 400;
+  margin-top: 2.25rem;
   @media only screen and (max-width: 768px) {
     margin-bottom: 1.5rem;
     font-size: 1rem;
@@ -128,6 +131,7 @@ export const SCTitle4 = styled.div`
   line-height: 2rem;
   padding-top: 0.5rem;
   padding-left: 1rem;
+  margin-top: 2.25rem;
   @media only screen and (max-width: 768px) {
     font-size: 1rem;
     line-height: 1.5rem;
